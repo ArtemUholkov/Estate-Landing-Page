@@ -43,13 +43,12 @@ nav {
 
 .head_photo {
     margin-top: -22px;
-    width: 1440px;
-    height: 776px;
+    max-width: 1440px;
+    max-height: 776px;
 }
 
 .main_photo_wrapper {
     position: relative;
-
 }
 
 .main_photo {
@@ -57,19 +56,23 @@ nav {
     z-index: 1;
 }
 
-.name {
+.center_wrapper {
+    margin: 0 auto;
     position: absolute;
-    left: 48%;
-    top: 50%;
-    bottom: 45.45%;
-    height: 35px;
+    top: 37%;
+    left: 36%;
+
 }
 
+.logo {
+    margin: 0 auto;
+}
+
+
+
 h1 {
+
     font-family: 'Montserrat';
-    position: absolute;
-    top: 57%;
-    left: 37%;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -77,23 +80,30 @@ h1 {
     text-align: center;
 }
 
-.logo {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    bottom: 45.45%;
+
+.name {
+    height: 35px;
+    margin: 0 auto;
 }
 
-.arrow {
-    position: absolute;
-    left: 51%;
-    top: 90%;
-    bottom: 45.45%;
+.arrow-wrapper {
+    margin-top: 150px;
+    position: relative;
 }
 
 .rect {
+    position: relative;
+    margin: 0 auto;
+}
+
+.arrow {
+    margin: 0 auto;
     position: absolute;
-    left: 49.6%;
-    top: 87.2%;
-    bottom: 45.45%;
+    top: 36%;
+    left: 47.7%;
+}
+
+.big_building_photo {
+    width: 100%;
+    margin-top: 87px;
 }
