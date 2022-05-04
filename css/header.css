@@ -1,4 +1,99 @@
 header {
+    height: 66px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.stick {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.logo_wrapper {
+    padding: 15px 0 0 136px;
+    width: 102px;
+    height: 37px;
+}
+
+.logo_name {
+    width: 100%;
+}
+
+.burger {
+    display: none;
+}
+
+.popup {
+    display: none;
+}
+
+.navbar_menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-right: 131px;
+}
+
+.nav_elem {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #444444;
+    padding: 21px 15px 29px;
+}
+
+.nav_elem:hover {
+    background-color: #FAFAFC;
+    transition: 0.5s;
+}
+
+@media (max-width: 960px) {
+    .navbar_menu {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        align-items: center;
+    }
+
+    .stick {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: black;
+        transition: 0.2s;
+        border-radius: 3px;
+    }
+
+    .burger_space {
+        padding: 20px 30px;
+        cursor: pointer;
+    }
+
+    .logo_wrapper {
+        padding: 10px 30px;
+    }
+}
+
+
+
+
+
+
+
+/*
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -107,3 +202,4 @@ h1 {
     width: 100%;
     margin-top: 87px;
 }
+*/
