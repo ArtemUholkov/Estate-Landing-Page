@@ -9,11 +9,10 @@ function burgerHandler(e) {
         popup.classList.add('close')
         popupSlide.classList.add('slideout');
         setTimeout(() => {
-            popup.classList.remove('open');
             popup.classList.remove('close');
-            popupSlide.classList.remove('slidein');
+            popup.classList.remove('open');
             popupSlide.classList.remove('slideout');
-
+            popupSlide.classList.remove('slidein');
         }, 300);
 
     } else {
