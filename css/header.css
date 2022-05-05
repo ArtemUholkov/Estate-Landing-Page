@@ -95,12 +95,13 @@ header {
         overflow: hidden;
         bottom: 0;
         justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.7);
+
     }
 
     .popup.open {
         left: 0;
         display: flex;
-        background-color: rgba(0, 0, 0, 0.7);
         animation-duration: 0.5s;
         animation-name: fadein;
         animation-timing-function: linear;
@@ -141,6 +142,42 @@ header {
             left: 0;
         }
     }
+
+
+
+    @keyframes fadeout {
+        from {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        to {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+    }
+
+    @keyframes slideout {
+        from {
+            left: 0;
+        }
+
+        to {
+            left: 100%;
+        }
+    }
+}
+
+.popup.close {
+    background-color: rgba(0, 0, 0, 0);
+    animation-name: fadeout;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+}
+
+.popup_textblock.slideout {
+    animation-name: slideout;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
 }
 
 
