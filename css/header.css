@@ -52,7 +52,8 @@ header {
 }
 
 .nav_elem:hover {
-    background-color: #FAFAFC;
+    background-color: gray;
+    color: white;
     transition: 0.5s;
 }
 
