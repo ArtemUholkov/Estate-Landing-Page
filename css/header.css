@@ -98,6 +98,7 @@ header {
         justify-content: flex-end;
         background-color: rgba(0, 0, 0, 0.7);
 
+
     }
 
     .popup.open {
@@ -106,6 +107,7 @@ header {
         animation-duration: 0.5s;
         animation-name: fadein;
         animation-timing-function: linear;
+
     }
 
     @keyframes fadein {
@@ -124,6 +126,7 @@ header {
         width: 80%;
         background-color: white;
         align-items: center;
+        overflow: auto;
     }
 
     .navbar_menu_mobile {
