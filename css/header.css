@@ -122,7 +122,34 @@ header {
         left: 100%;
         width: 80%;
         background-color: white;
+        align-items: center;
     }
+
+    .navbar_menu_mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+
+    }
+
+    .nav_elem_mobile {
+        display: block;
+        padding: 40px;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-size: 15px;
+        color: #444444;
+    }
+
+    .nav_elem_mobile:hover {
+        background-color: gray;
+        color: white;
+
+    }
+
 
     .popup_textblock.slidein {
         position: relative;
@@ -131,6 +158,8 @@ header {
         animation-duration: 0.5s;
         animation-name: slidein;
         animation-timing-function: linear;
+
+
     }
 
     @keyframes slidein {
@@ -180,9 +209,6 @@ header {
     animation-duration: 0.3s;
     animation-timing-function: linear;
 }
-
-
-
 
 .main_photo_wrapper {
     width: 100%;
