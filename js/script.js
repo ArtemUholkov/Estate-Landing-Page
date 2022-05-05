@@ -11,11 +11,13 @@ function burgerHandler(e) {
         setTimeout(() => {
             popup.classList.remove('open');
             popup.classList.remove('close');
+            popupSlide.classList.remove('slidein');
             popupSlide.classList.remove('slideout');
+
         }, 300);
 
     } else {
-        e.preventDefault();
+
         popup.classList.add("open");
         popupSlide.classList.add("slidein")
     }
