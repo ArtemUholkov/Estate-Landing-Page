@@ -86,27 +86,60 @@ header {
     }
 
     .popup {
-        position: fixed;
-        left: 100%;
+        position: absolute;
+        left: 0;
         width: 100%;
-        height: calc(100vh - 66px);
+        height: calc(100vh - 86px);
         z-index: 5;
-        background-color: rgba(0, 0, 0, 0.7);
-        display: flex;
-        transition: 0.3s;
+        display: none;
         overflow: hidden;
         bottom: 0;
         justify-content: flex-end;
-
     }
 
     .popup.open {
         left: 0;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.7);
+        animation-duration: 0.5s;
+        animation-name: fadein;
+        animation-timing-function: linear;
+    }
+
+    @keyframes fadein {
+        from {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        to {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
     }
 
     .popup_textblock {
+        position: absolute;
+        left: 100%;
         width: 80%;
         background-color: white;
+    }
+
+    .popup_textblock.slidein {
+        position: relative;
+        display: flex;
+        left: 0;
+        animation-duration: 0.5s;
+        animation-name: slidein;
+        animation-timing-function: linear;
+    }
+
+    @keyframes slidein {
+        from {
+            left: 100%;
+        }
+
+        to {
+            left: 0;
+        }
     }
 }
 
