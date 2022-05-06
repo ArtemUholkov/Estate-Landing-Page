@@ -274,3 +274,25 @@ h1 {
     text-align: center;
     color: #45525B;
 }
+
+.title_circle {
+    width: 64px;
+    height: 64px;
+    border: black 2px solid;
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 32px);
+    z-index: 2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-15px);
+    }
+}
