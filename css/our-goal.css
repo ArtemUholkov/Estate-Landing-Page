@@ -82,4 +82,16 @@
 
 .person_photo {
     width: 100%;
+    border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+    .our_goal_wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .our_goal_text2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
 }
