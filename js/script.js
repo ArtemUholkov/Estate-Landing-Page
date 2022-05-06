@@ -3,6 +3,9 @@ const popup = document.querySelector("#popup");
 const popupSlide = document.querySelector("#popupSlide")
 
 burger.addEventListener("click", burgerHandler);
+popup.addEventListener("click", (e) => {
+    burgerHandler(e);
+});
 
 function burgerHandler(e) {
 
