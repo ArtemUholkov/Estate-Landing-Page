@@ -64,6 +64,10 @@ header {
         display: none;
     }
 
+    .navbar {
+        margin: 0;
+    }
+
     .burger {
         display: flex;
         align-items: center;
