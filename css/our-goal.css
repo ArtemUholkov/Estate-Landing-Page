@@ -9,7 +9,7 @@
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-    gap: 16px;
+    gap: 8px;
     padding: 100px 0;
 
 }
@@ -38,6 +38,7 @@
 .our_goal_right_side_wrapper {
     display: flex;
     flex-direction: column;
+    gap: 19px;
 }
 
 .our_goa_right_text1 {
