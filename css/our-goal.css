@@ -1,56 +1,47 @@
 .our_goal {
+    background-color: #FAFAFC;
+}
+
+.our_goal_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
     align-items: center;
-    width: 100%;
-    height: auto;
-    background-color: #FAFAFC;
-    margin-top: -40px;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 16px;
+    padding: 100px 0;
+
 }
 
 .our_goal_left_side_wrapper {
     display: flex;
     flex-direction: column;
-    height: 486px;
     justify-content: center;
-    margin-left: 136px;
-    margin-right: 85px;
 
 }
 
 .our_goal_text1 {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
     text-transform: uppercase;
     color: #FF8A63;
 }
 
 .our_goal_text2 {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 48px;
     line-height: 53px;
     color: #45525B;
-    width: 491px;
 }
 
 .our_goal_right_side_wrapper {
     display: flex;
     flex-direction: column;
-    gap: 11px;
 }
 
 .our_goa_right_text1 {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 22px;
     color: #333333;
 }
@@ -69,8 +60,6 @@
 
 .person_name {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: #45525B;
@@ -78,11 +67,19 @@
 
 .person_position {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 17px;
-    letter-spacing: 2px;
     text-transform: uppercase;
     color: #6F7278;
+}
+
+.person_photo_wrapper {
+    width: 80px;
+    height: 80px;
+    border: #CACCD1 2px solid;
+    border-radius: 50%;
+}
+
+.person_photo {
+    width: 100%;
 }
