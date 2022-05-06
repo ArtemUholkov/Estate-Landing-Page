@@ -302,3 +302,13 @@ h1 {
         transform: translateY(-15px);
     }
 }
+
+@media (max-height: 550px) {
+    .title_circle {
+        display: none;
+    }
+
+    .title_arrow {
+        display: none;
+    }
+}
