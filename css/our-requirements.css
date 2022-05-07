@@ -1,24 +1,19 @@
 .our_requirements {
-    margin: 100px;
+    padding: 100px;
+
 }
 
 .main_text {
     display: block;
+    text-align: center;
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
     text-transform: uppercase;
     color: #FF8A63;
-    text-align: center;
 }
 
 h3 {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 36px;
     line-height: 43px;
     text-align: center;
@@ -29,8 +24,6 @@ h3 {
     display: block;
     text-align: center;
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -42,7 +35,7 @@ h3 {
     flex-direction: row;
     justify-content: center;
     gap: 32px;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .our_requirements_content_items {
@@ -61,7 +54,7 @@ h3 {
 .icon {
     width: 48px;
     height: 48px;
-    margin-bottom: 9px;
+    padding-bottom: 9px;
 }
 
 .main_item {
@@ -71,10 +64,7 @@ h3 {
 
 .our_requirements_text_title {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
 
@@ -82,8 +72,6 @@ h3 {
 
 .our_requirements_text_info {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #6F7278;
