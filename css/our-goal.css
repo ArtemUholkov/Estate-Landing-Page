@@ -95,4 +95,14 @@
         font-size: 30px;
         line-height: 30px;
     }
+
+    .our_goal_wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .our_goal_wrapper {
+        width: 95%;
+    }
 }
