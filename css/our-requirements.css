@@ -89,11 +89,9 @@ h3 {
     color: #6F7278;
 }
 
-
-
 .our_requirements_img {
-    max-width: 480px;
-    max-height: 588px;
+    width: 480px;
+    height: 588px;
     border-radius: 30px;
     object-fit: cover;
 }
@@ -101,10 +99,11 @@ h3 {
 @media (max-width: 955px) {
     h3 {
         font-size: 24px;
+        line-height: 25px;
     }
 
     .our_requirements_description {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .our_requirements_content {
