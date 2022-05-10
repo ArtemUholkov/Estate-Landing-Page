@@ -1,127 +1,139 @@
 .current_listings {
     width: 100%;
-    background: #FAFAFC;
+    background-color: #FAFAFC;
+    ;
+}
+
+.current_listings_wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.current_listings_gallary {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.current_listings_item_description {
+    width: calc(33.33% - 21px);
 
 }
 
-.current_listings_description {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #6F7278;
+.current_listings_content {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
 }
 
-.text_left {
-    display: block;
-    text-align: inherit;
-    margin-left: 136px;
+.current_listings_text_wrapper {
+    margin: 0 auto;
+    padding: 100px 0 30px 36px;
+}
+
+.left_text {
+    text-align: left;
 }
 
 .sub_text {
     display: block;
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 36px;
     line-height: 43px;
     color: #45525B;
-    margin-bottom: 11px;
-    margin-left: 136px;
 }
 
-.text_margin {
-    padding-top: 99px;
+.current_listings_description {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F7278;
 }
 
-.current_listings_gallary {
-    margin-top: 30px;
+@media (max-width: 1370px) {
+
+    .current_listings_item_description {
+        width: calc(50% - 21px);
+    }
+
+    .current_listings_text_wrapper {
+        padding: 50px 0 30px 36px;
+    }
+
+    .sub_text {
+        font-size: 24px;
+        line-height: 26px;
+        padding: 15px 0;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .current_listings_item_description {
+        width: calc(100% - 21px);
+    }
+
+    .current_listings_text_wrapper {
+        padding: 20px 0 30px 36px;
+    }
+}
+
+.current_listings_img_wrapper {
+    max-width: 379px;
+    max-height: 267px;
+    padding-bottom: 20px;
+}
+
+.current_listings_img {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-}
-
-.flex_line {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    justify-content: center;
-}
-
-.current_listings_item_description {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 0 0 10px 10px;
-
-}
-
-
-
-.gallary_text_type {
-    margin-top: 20px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 17px;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.gallary_text_place {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    margin-bottom: 11px;
-}
-
-.gallery_info {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 17px;
-    text-align: center;
-
+    height: 100%;
 }
 
 .gallery_info_datailes {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-
+    gap: 16px;
+    padding-bottom: 22px;
 }
 
 .gallery_info_item {
     display: flex;
-    flex-direction: row;
-    gap: 9px;
-    padding-bottom: 24px;
+    gap: 8px;
 }
 
-.link-to {
-    display: block;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 21px;
-    color: #45525B;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 26px;
-    padding-bottom: 101px;
+.icon_wrapper {
+    max-width: 17.5px;
+    max-height: 20px;
 }
 
-.arrow-span {
-    font-weight: 700;
+.current_listings_icon {
+    width: 100%;
+    height: 100%;
+}
 
+.gallary_text_place {
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.gallary_text_type {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.gallery_info {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 17px;
 }
