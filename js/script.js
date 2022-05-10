@@ -51,16 +51,38 @@ function setImage(el, elList) {
 
 const moreListingsBut = document.querySelector('.show_more');
 const moreListings = document.querySelectorAll('.current_listings_item_description_more');
-
+const hidenButton = document.querySelector('.hiden_button');
+const showButWrap = document.querySelector('.link_wrapper_active');
+const hideButWrap = document.querySelector('.link_wrapper_hiden');
 moreListingsBut.addEventListener("click", () => {
     showMore(moreListings);
 });
 
+hidenButton.addEventListener("click", (e) => {
+    hideAllListings(moreListings);
+});
 
 function showMore(elem) {
-    elem.forEach(el => {
-        el.classList.toggle('show_listing');
+    let counter = 0;
+    for (let i = 0; i < elem.length && counter !== 6; i++) {
+        if (elem[i] && elem[i].classList.contains('show_listing')) {
+            elem[i].classList.remove('show_listing');
+            counter++;
+        }
+        else {
+            showButWrap.classList.add('show_listing');
+            hideButWrap.classList.remove('show_listing');
+        }
+    }
+
+    console.log(counter);
+}
+function hideAllListings(el) {
+    el.forEach(el => {
+        el.classList.add('show_listing');
     });
+    showButWrap.classList.remove('show_listing');
+    hideButWrap.classList.add('show_listing');
 
 }
 

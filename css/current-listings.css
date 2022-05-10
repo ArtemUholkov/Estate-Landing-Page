@@ -158,7 +158,7 @@
     line-height: 17px;
 }
 
-.link_wrapper {
+.link_wrapper_active {
     display: block;
     text-align: center;
     padding: 26px 26px;
@@ -181,7 +181,28 @@
     border-radius: 15px;
 }
 
+.hiden_button {
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 21px;
+    text-decoration: none;
+}
 
+.hiden_button:hover {
+    padding: 10px 10px;
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.link_wrapper_hiden {
+    display: block;
+    text-align: center;
+    padding: 26px 26px;
+}
 
 .show_listing {
     display: none;
