@@ -46,3 +46,22 @@ function setImage(el, elList) {
     el.classList.add('main_item');
     sliderPhoto.setAttribute('src', `img/our-requirements/${imgId}.jpg`);
 }
+
+
+
+const moreListingsBut = document.querySelector('.show_more');
+const moreListings = document.querySelectorAll('.current_listings_item_description_more');
+
+moreListingsBut.addEventListener("click", () => {
+    showMore(moreListings);
+});
+
+
+function showMore(elem) {
+    elem.forEach(el => {
+        el.classList.toggle('show_listing');
+    });
+
+}
+
+

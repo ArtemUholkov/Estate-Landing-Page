@@ -58,9 +58,17 @@
     color: #6F7278;
 }
 
+.current_listings_item_description_more {
+    width: calc(33.33% - 21px);
+}
+
 @media (max-width: 1370px) {
 
     .current_listings_item_description {
+        width: calc(50% - 21px);
+    }
+
+    .current_listings_item_description_more {
         width: calc(50% - 21px);
     }
 
@@ -83,6 +91,10 @@
 @media (max-width: 1000px) {
 
     .current_listings_item_description {
+        width: calc(100% - 21px);
+    }
+
+    .current_listings_item_description_more {
         width: calc(100% - 21px);
     }
 
@@ -167,4 +179,10 @@
     color: white;
     transition: 0.5s;
     border-radius: 15px;
+}
+
+
+
+.show_listing {
+    display: none;
 }
