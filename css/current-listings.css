@@ -154,7 +154,7 @@
 
 .show_more {
     text-align: center;
-
+    cursor: pointer;
     font-family: 'Montserrat';
     font-size: 15px;
     line-height: 21px;
