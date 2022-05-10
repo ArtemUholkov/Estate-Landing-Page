@@ -74,6 +74,10 @@
         padding: 15px 0;
     }
 
+    .current_listings_wrapper {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 1000px) {
@@ -84,6 +88,10 @@
 
     .current_listings_text_wrapper {
         padding: 20px 0 30px 36px;
+    }
+
+    .current_listings_wrapper {
+        width: 100%;
     }
 }
 
@@ -136,4 +144,27 @@
     font-family: 'Montserrat';
     font-size: 12px;
     line-height: 17px;
+}
+
+.link_wrapper {
+    display: block;
+    text-align: center;
+    padding: 26px 26px;
+}
+
+.show_more {
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.show_more:hover {
+    padding: 10px 10px;
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+    border-radius: 15px;
 }

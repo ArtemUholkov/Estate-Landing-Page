@@ -129,4 +129,8 @@ body {
     margin: 0 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*COMMONT STYLES END*/
