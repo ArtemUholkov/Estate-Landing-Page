@@ -1,7 +1,7 @@
 .current_listings {
     width: 100%;
     background-color: #FAFAFC;
-    ;
+    padding-bottom: 100px;
 }
 
 .current_listings_wrapper {
@@ -29,9 +29,7 @@
 
 }
 
-.current_listings_content {
-  
-}
+
 
 .current_listings_text_wrapper {
     margin: 0 auto;
@@ -91,6 +89,9 @@
     .current_listings_wrapper {
         width: 90%;
     }
+    .current_listings{
+        padding-bottom: 50px;
+    }
 
 }
 
@@ -110,6 +111,9 @@
 
     .current_listings_wrapper {
         width: 100%;
+    }
+    .current_listings {
+         padding-bottom: 20px;
     }
 }
 

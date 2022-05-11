@@ -1,0 +1,63 @@
+.our_people{
+    width: 100%;
+    padding: 100px 0;
+}
+.our_people__wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.our_people__team_member_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 65px;
+}
+.our_people__team_member{
+    display: flex;
+    width: calc(50% - 16px);
+}
+.our_people__team_member_info_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8px;
+}
+.our_people__textblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 1050px) {
+    .our_people__wrapper {
+    grid-template-columns: 1fr;
+    }
+    .our_people__wrapper {
+        width: 95%;
+    }
+    .our_people {
+        padding: 50px 0;
+    }
+    .our_people__team_member_list {
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .our_people__team_member_list {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 auto;
+    }
+    .our_people__team_member {
+        width: calc(100% - 16px);
+    }
+    .our_people {
+    
+         padding: 15px 0;
+    }
+        
+}
