@@ -6,17 +6,21 @@
 .testimonials_wrapper {
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
+
 }
 
 .testimonials__items_wrapper {
+    position: relative;
+    left: 0;
+    width: fit-content;
     padding-top: 57px;
     display: flex;
-
 }
 
 .testimonials__item {
     padding: 31px;
-    width: calc(33% - 20px);
+    width: 584px;
     display: flex;
     flex-direction: column;
 }
@@ -80,4 +84,5 @@
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+    padding-right: 136px;
 }
