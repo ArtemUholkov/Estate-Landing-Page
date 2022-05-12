@@ -1,0 +1,83 @@
+.testimonials {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.testimonials_wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonials__items_wrapper {
+    padding-top: 57px;
+    display: flex;
+
+}
+
+.testimonials__item {
+    padding: 31px;
+    width: calc(33% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials__rating_img {
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+.left_side {
+    text-align: left;
+}
+
+.testimonials__item_title {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    padding-bottom: 11px;
+}
+
+.testimonials__item_text {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+    padding-bottom: 20px;
+}
+
+.testimonials_item_author_name {
+    font-family: 'Montserrat';
+    line-height: 16px;
+    color: #45525B;
+}
+
+.testimonials_item_author_stick {
+    display: inline-block;
+    width: 2px;
+    height: 24px;
+    background-color: #FF8A63;
+}
+
+.testimonials__item_author_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonials__button_wrapper_next,
+.testimonials__button_wrapper_prev {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.testimonials_buttons_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
