@@ -86,4 +86,37 @@ function hideAllListings(el) {
 
 }
 
+const sliderItemm = document.querySelectorAll('.testimonials__item');
+const sliderWrapper = document.querySelector('.testimonials__items_wrapper');
+const nextButton = document.querySelector('.testimonials__button_wrapper_next');
+const prevButton = document.querySelector('.testimonials__button_wrapper_prev');
+let sliderWidth = (sliderItemm.length - 1) * 636;
+let pixelCounter = 0;
 
+
+nextButton.addEventListener("click", function () {
+    if (pixelCounter < sliderWidth) {
+        pixelCounter += 636;
+        sliderWrapper.style.left = -pixelCounter + 'px';
+    }
+    else {
+        pixelCounter = 0;
+        sliderWrapper.style.left = pixelCounter + 'px';
+    }
+
+
+});
+
+prevButton.addEventListener("click", function () {
+    if (pixelCounter > 0) {
+        pixelCounter -= 636;
+        sliderWrapper.style.left = -pixelCounter + 'px';
+    }
+    else {
+        pixelCounter = sliderWidth;
+        sliderWrapper.style.left = -pixelCounter + 'px';
+
+    }
+
+
+});

@@ -16,6 +16,7 @@
     width: fit-content;
     padding-top: 57px;
     display: flex;
+    transition: all ease 1s;
 }
 
 .testimonials__item {
@@ -78,6 +79,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .testimonials_buttons_wrapper {
@@ -85,4 +87,14 @@
     justify-content: flex-end;
     gap: 10px;
     padding-right: 136px;
+}
+
+.testimonials__button_wrapper_next:hover {
+    background-color: #b3b3b3;
+    transition: 0.5s;
+}
+
+.testimonials__button_wrapper_prev:hover {
+    background-color: #b3b3b3;
+    transition: 0.5s;
 }
