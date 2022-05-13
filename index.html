@@ -138,7 +138,7 @@
         <img class="big_building_photo" src="img/our-requirements/building-in-front-of-the-sky.svg"
             alt="Big building in front of the sky">
     </section>
-    <section class="current_listings">
+    <section class="current_listings" id="current_listings">
         <div class="current_listings_wrapper">
             <div class="current_listings_text_wrapper">
                 <span class="main_text left_text">CURRENT LISTINGS</span>
@@ -567,7 +567,7 @@
             </div>
         </div>
     </section>
-    <section class="our_people">
+    <section class="our_people" id="our_team">
         <div class="our_people__wrapper">
             <div class="our_people__textblock">
                 <span class="main_text left_text">OUR PEOPLE</span>
@@ -634,7 +634,7 @@
             </div>
         </div>
     </section>
-    <section class="newsroom">
+    <section class="newsroom" id="newsroom">
         <div class="newsroom_wrapper">
             <span class="main_text">NEWSROOM</span>
             <span class="sub_text center_text">Writing from Estate.</span>
@@ -671,7 +671,7 @@
             </div>
         </div>
     </section>
-    <section class="testimonials">
+    <section class="testimonials" id="feedbacks">
         <div class="testimonials_wrapper">
             <span class="main_text left_side">TESTIMONIALS</span>
             <span class="sub_text">What our customers say.</span>
@@ -827,7 +827,7 @@
             </a>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contacts">
         <div class="contact_wrapper">
             <div class="contact__text_wrapper">
                 <span class="main_text white_text">SEEN ENOUGH?</span>
@@ -839,10 +839,62 @@
             </div>
             <div class="contact_form_wrapper">
                 <a class="contact__button_wrapper"><span class="contact__contact_button_text">Contact</span></a>
-                <a class="contact__button_wrapper"><span class="contact__contact_button_text">See listings</span></a>
+                <a class="contact__button_wrapper" href="#current_listings"><span
+                        class="contact__contact_button_text">See listings</span></a>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer_wrapper">
+            <div class="footer__logo_wrapper">
+                <img src="img/footer/white-logo.svg" alt="estate white logo" class="footer__logo">
+            </div>
+            <div class="footer__info">
+                <nav class="footer_nav_list">
+                    <span class="main_text left_text">PAGES</span>
+                    <a href="#"><span class="footer_nav_text">Start</span></a>
+                    <a href="#current_listings"><span class="footer_nav_text">Listings</span></a>
+                    <a href="#contacts"><span class="footer_nav_text">Contact</span></a>
+                    <a href="#feedbacks"><span class="footer_nav_text">Feedbacks</span></a>
+                </nav>
+                <nav class="footer_nav_list">
+                    <span class="main_text left_text">COMPANY</span>
+                    <a href="#our_goal"><span class="footer_nav_text">About</span></a>
+                    <a href="#our_team"><span class="footer_nav_text">Our team</span></a>
+                    <a href="#newsroom"><span class="footer_nav_text">Newsroom</span></a>
+                </nav>
+                <div class="footer__newsletter_form">
+                    <span class="main_text left_text">NEWSLETTER</span>
+                    <span class="footer_nav_text">Subscribe to our (infrequent) newsletter where we
+                        share news about
+                        upcoming listings and
+                        projects.</span>
+                    <form class="footer__form">
+                        <input type="text" class="footer__mail_input" placeholder="....">
+                        <button type="submit" class="footer__mail_button">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__rights_and_links">
+                <span class="footer_nav_text">© Estate, LLC. All rights reserved. Powered by Webflow.</span>
+                <div class="footer__icon_links">
+                    <div class="footer__icon_wrapper">
+                        <img src="img/footer/twitter-icon.png" alt="twitter icon link" class="footer__icon">
+                    </div>
+                    <div class="footer__icon_wrapper">
+                        <img src="img/footer/instagram-icon.png" alt="instargam icon link" class="footer__icon">
+                    </div>
+                    <div class="footer__icon_wrapper">
+                        <img src="img/footer/facebook-icon.png" alt="facebook icon link" class="footer__icon">
+                    </div>
+                    <div class="footer__icon_wrapper">
+                        <img src="img/footer/linkedin-icon.svg" alt="linkedin icon link" class="footer__icon">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 
