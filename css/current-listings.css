@@ -56,6 +56,7 @@
 
 .current_listings_item_description_more {
     width: calc(33.33% - 21px);
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -91,12 +91,13 @@
 
 @media (max-width: 860px) {
     .newsroom {
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .newsroom__content {
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
     }
 
     .newsroom__content_item {
