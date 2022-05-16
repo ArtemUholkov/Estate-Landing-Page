@@ -71,6 +71,7 @@ footer {
 .footer_nav_text {
     color: white;
     padding: 5px;
+    transition: all 0.5s;
 }
 
 .footer_nav_link {
@@ -135,6 +136,11 @@ footer {
     justify-content: center;
 }
 
+.footer_nav__sub_text {
+    color: white;
+    padding: 5px;
+}
+
 .footer__form {
     width: 80%;
     max-width: 460px;
@@ -163,8 +169,12 @@ footer {
 }
 
 .footer__mail_button:hover {
-    background: gray;
-    color: white;
+    background-color: gray;
+
+}
+
+.footer_nav_text:hover {
+    color: gray;
 }
 
 @media (max-width: 900px) {
