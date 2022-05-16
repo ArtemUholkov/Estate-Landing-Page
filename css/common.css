@@ -114,6 +114,9 @@ table {
 
 
 /*COLOR VARIABLES START*/
+:root {
+    --title-button-text-color: #553c29;
+}
 
 /*COLOR VARIABLES END*/
 
