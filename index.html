@@ -14,26 +14,28 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo_wrapper">
-                <a href="#"><img class="logo_name" src="img/header/logo-and-name.JPG" alt="Estate Logo"></a>
-            </div>
-
-            <ul class="navbar_menu">
-                <li><a class="nav_elem" href="#requirements">Requirements</a></li>
-                <li><a class="nav_elem" href="#newsroom">Newsroom</a></li>
-                <li><a class="nav_elem" href="#our_team">Our team</a></li>
-                <li><a class="nav_elem" href="#contacts">Contact</a></li>
-            </ul>
-            <div class="burger">
-                <div class="burger_space" id="burger">
-                    <span class="stick"></span>
-                    <span class="stick"></span>
-                    <span class="stick"></span>
+        <div class="container header_container">
+            <nav class="navbar">
+                <div class="logo_wrapper">
+                    <a href="#"><img class="logo_name" src="img/header/logo-and-name.JPG" alt="Estate Logo"></a>
                 </div>
-            </div>
 
-        </nav>
+                <ul class="navbar_menu">
+                    <li><a class="nav_elem" href="#requirements">Requirements</a></li>
+                    <li><a class="nav_elem" href="#newsroom">Newsroom</a></li>
+                    <li><a class="nav_elem" href="#our_team">Our team</a></li>
+                    <li><a class="nav_elem" href="#contacts">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="burger_space" id="burger">
+                        <span class="stick"></span>
+                        <span class="stick"></span>
+                        <span class="stick"></span>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
         <div class="popup" id="popup">
             <div class="popup_textblock" id="popupSlide">
                 <ul class="navbar_menu_mobile">
@@ -58,44 +60,46 @@
 
     </section>
     <section class="our_goal" id="our_goal">
-        <div class="our_goal_wrapper">
-            <div class="our_goal_left_side_wrapper">
-                <span class="our_goal_text1">OUR GOAL</span>
-                <span class="our_goal_text2">We are dedicated to finding a house that you'll love.</span>
-            </div>
-            <div class="our_goal_right_side_wrapper">
-                <div class="our_goa_right_text1">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Suspendisse
-                        varius enim in eros elementum
-                        tristique. Duis
-                        cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-                        Aenean
-                        faucibus nibh et
-                        justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
-                    </span>
-                    <br>
-                    <br>
-                    <span>Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
-                        nibh et justo cursus id rutrum
-                        lorem imperdiet. Nunc
-                        ut sem vitae risus tristique posuere.</span>
+        <div class="container">
+            <div class="our_goal_wrapper">
+                <div class="our_goal_left_side_wrapper">
+                    <span class="our_goal_text1">OUR GOAL</span>
+                    <span class="our_goal_text2">We are dedicated to finding a house that you'll love.</span>
                 </div>
-                <div>
-                    <div class="person_wrapper">
-                        <div class="person_photo_wrapper">
-                            <img src="img/our-goals/person.svg" alt="Person" class="person_photo">
-                        </div>
-                        <div class="person_info">
-                            <span class="person_name">Ava Orn</span>
-                            <span class="person_position">MANAGING BROKER</span>
+                <div class="our_goal_right_side_wrapper">
+                    <div class="our_goa_right_text1">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse
+                            varius enim in eros elementum
+                            tristique. Duis
+                            cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                            erat.
+                            Aenean
+                            faucibus nibh et
+                            justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                        </span>
+                        <br>
+                        <br>
+                        <span>Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
+                            nibh et justo cursus id rutrum
+                            lorem imperdiet. Nunc
+                            ut sem vitae risus tristique posuere.</span>
+                    </div>
+                    <div>
+                        <div class="person_wrapper">
+                            <div class="person_photo_wrapper">
+                                <img src="img/our-goals/person.svg" alt="Person" class="person_photo">
+                            </div>
+                            <div class="person_info">
+                                <span class="person_name">Ava Orn</span>
+                                <span class="person_position">MANAGING BROKER</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section class="our_requirements" id="requirements">
         <span class="main_text">OUR REQUIREMENTS</span>
         <h3>How we choose our listings.</h3>
@@ -139,7 +143,7 @@
             alt="Big building in front of the sky">
     </section>
     <section class="current_listings" id="current_listings">
-        <div class="current_listings_wrapper">
+        <div class="container">
             <div class="current_listings_text_wrapper">
                 <span class="main_text left_text">CURRENT LISTINGS</span>
                 <span class="sub_text">What we have in store for you.</span>
@@ -568,74 +572,77 @@
         </div>
     </section>
     <section class="our_people" id="our_team">
-        <div class="our_people__wrapper">
-            <div class="our_people__textblock">
-                <span class="main_text left_text">OUR PEOPLE</span>
-                <span class="sub_text">Meet our team of dedicated and talented agents.</span>
-                <span class="current_listings_description">Morbi neque ex, condimentum dapibus congue et, vulputate ut
-                    ligula. Vestibulum sit amet urna turpis. Mauris euismod elit
-                    et nisi ultrices, ut faucibus orci tincidunt.</span>
-            </div>
-            <div class="our_people__team_member_list">
-                <div class="our_people__team_member">
-                    <div class="our_people__team_member_img_wrapper">
-                        <img class="person_photo_wrapper" src="img/our-people/ava.svg" alt="">
-                    </div>
-                    <div class="our_people__team_member_info_wrapper">
-                        <span class="person_name">Ava Orn</span>
-                        <span class="person_position">Managing Broker</span>
-                    </div>
+        <div class="container">
+            <div class="our_people__wrapper">
+                <div class="our_people__textblock">
+                    <span class="main_text left_text">OUR PEOPLE</span>
+                    <span class="sub_text">Meet our team of dedicated and talented agents.</span>
+                    <span class="current_listings_description">Morbi neque ex, condimentum dapibus congue et, vulputate
+                        ut
+                        ligula. Vestibulum sit amet urna turpis. Mauris euismod elit
+                        et nisi ultrices, ut faucibus orci tincidunt.</span>
                 </div>
-                <div class="our_people__team_member">
-                    <div class="our_people__team_member_img_wrapper">
-                        <img class="person_photo_wrapper" src="img/our-people/david.svg" alt="">
+                <div class="our_people__team_member_list">
+                    <div class="our_people__team_member">
+                        <div class="our_people__team_member_img_wrapper">
+                            <img class="person_photo_wrapper" src="img/our-people/ava.svg" alt="">
+                        </div>
+                        <div class="our_people__team_member_info_wrapper">
+                            <span class="person_name">Ava Orn</span>
+                            <span class="person_position">Managing Broker</span>
+                        </div>
                     </div>
-                    <div class="our_people__team_member_info_wrapper">
-                        <span class="person_name">David Sporer</span>
-                        <span class="person_position">Agent</span>
+                    <div class="our_people__team_member">
+                        <div class="our_people__team_member_img_wrapper">
+                            <img class="person_photo_wrapper" src="img/our-people/david.svg" alt="">
+                        </div>
+                        <div class="our_people__team_member_info_wrapper">
+                            <span class="person_name">David Sporer</span>
+                            <span class="person_position">Agent</span>
+                        </div>
                     </div>
-                </div>
-                <div class="our_people__team_member">
-                    <div class="our_people__team_member_img_wrapper">
-                        <img class="person_photo_wrapper" src="img/our-people/ella.svg" alt="">
+                    <div class="our_people__team_member">
+                        <div class="our_people__team_member_img_wrapper">
+                            <img class="person_photo_wrapper" src="img/our-people/ella.svg" alt="">
+                        </div>
+                        <div class="our_people__team_member_info_wrapper">
+                            <span class="person_name">Ella Hessel</span>
+                            <span class="person_position">Agent</span>
+                        </div>
                     </div>
-                    <div class="our_people__team_member_info_wrapper">
-                        <span class="person_name">Ella Hessel</span>
-                        <span class="person_position">Agent</span>
+                    <div class="our_people__team_member">
+                        <div class="our_people__team_member_img_wrapper">
+                            <img class="person_photo_wrapper" src="img/our-people/trevor.svg" alt="">
+                        </div>
+                        <div class="our_people__team_member_info_wrapper">
+                            <span class="person_name">Trevor Torphy</span>
+                            <span class="person_position">Agent</span>
+                        </div>
                     </div>
-                </div>
-                <div class="our_people__team_member">
-                    <div class="our_people__team_member_img_wrapper">
-                        <img class="person_photo_wrapper" src="img/our-people/trevor.svg" alt="">
+                    <div class="our_people__team_member">
+                        <div class="our_people__team_member_img_wrapper">
+                            <img class="person_photo_wrapper" src="img/our-people/daryl.svg" alt="">
+                        </div>
+                        <div class="our_people__team_member_info_wrapper">
+                            <span class="person_name">Daryl Gislason</span>
+                            <span class="person_position">REALTOR</span>
+                        </div>
                     </div>
-                    <div class="our_people__team_member_info_wrapper">
-                        <span class="person_name">Trevor Torphy</span>
-                        <span class="person_position">Agent</span>
-                    </div>
-                </div>
-                <div class="our_people__team_member">
-                    <div class="our_people__team_member_img_wrapper">
-                        <img class="person_photo_wrapper" src="img/our-people/daryl.svg" alt="">
-                    </div>
-                    <div class="our_people__team_member_info_wrapper">
-                        <span class="person_name">Daryl Gislason</span>
-                        <span class="person_position">REALTOR</span>
-                    </div>
-                </div>
-                <div class="our_people__team_member">
-                    <div class="our_people__team_member_img_wrapper">
-                        <img class="person_photo_wrapper" src="img/our-people/amanda.svg" alt="">
-                    </div>
-                    <div class="our_people__team_member_info_wrapper">
-                        <span class="person_name">Amanda Giovanni</span>
-                        <span class="person_position">REALTOR</span>
+                    <div class="our_people__team_member">
+                        <div class="our_people__team_member_img_wrapper">
+                            <img class="person_photo_wrapper" src="img/our-people/amanda.svg" alt="">
+                        </div>
+                        <div class="our_people__team_member_info_wrapper">
+                            <span class="person_name">Amanda Giovanni</span>
+                            <span class="person_position">REALTOR</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="newsroom" id="newsroom">
-        <div class="newsroom_wrapper">
+        <div class="container">
             <span class="main_text">NEWSROOM</span>
             <span class="sub_text center_text">Writing from Estate.</span>
             <div class="newsroom__content">
@@ -672,7 +679,7 @@
         </div>
     </section>
     <section class="testimonials" id="feedbacks">
-        <div class="testimonials_wrapper">
+        <div class="container testimonials_wrapper">
             <span class="main_text left_side">TESTIMONIALS</span>
             <span class="sub_text">What our customers say.</span>
             <div class="testimonials__items_wrapper">
@@ -817,18 +824,18 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="testimonials_buttons_wrapper">
-            <a class="testimonials__button_wrapper_prev">
-                <img src="img/testimonials/arrow-right.svg" alt="arrow" class="arrow-left">
-            </a>
-            <a class="testimonials__button_wrapper_next">
-                <img src="img/testimonials/arrow-left.svg" alt="arrow" class="arrow-right">
-            </a>
+            <div class="testimonials_buttons_wrapper">
+                <a class="testimonials__button_wrapper_prev">
+                    <img src="img/testimonials/arrow-right.svg" alt="arrow" class="arrow-left">
+                </a>
+                <a class="testimonials__button_wrapper_next">
+                    <img src="img/testimonials/arrow-left.svg" alt="arrow" class="arrow-right">
+                </a>
+            </div>
         </div>
     </section>
     <section class="contact" id="contacts">
-        <div class="contact_wrapper">
+        <div class="container">
             <div class="contact__text_wrapper">
                 <span class="main_text white_text">SEEN ENOUGH?</span>
                 <span class="sub_text white_text">Get in touch with us today.</span>
@@ -845,7 +852,7 @@
         </div>
     </section>
     <footer>
-        <div class="footer_wrapper">
+        <div class="container footer_container">
             <div class="footer__logo_wrapper">
                 <img src="img/footer/white-logo.svg" alt="estate white logo" class="footer__logo">
             </div>

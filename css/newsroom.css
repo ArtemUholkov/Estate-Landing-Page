@@ -1,12 +1,6 @@
 .newsroom {
     width: 100%;
-    padding: 100px 0;
     background-color: #FAFAFC;
-}
-
-.newsroom_wrapper {
-    width: 80%;
-    margin: 0 auto;
 }
 
 .center_text {
@@ -90,9 +84,6 @@
 }
 
 @media (max-width: 860px) {
-    .newsroom {
-        padding: 20px 0;
-    }
 
     .newsroom__content {
         flex-direction: column;

@@ -133,4 +133,25 @@ html {
     scroll-behavior: smooth;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 100px 0;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 90%;
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 25px 0;
+    }
+}
+
 /*COMMONT STYLES END*/

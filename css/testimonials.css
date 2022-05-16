@@ -1,13 +1,9 @@
 .testimonials {
     width: 100%;
-    padding: 100px 0;
 }
 
 .testimonials_wrapper {
-    width: 80%;
-    margin: 0 auto;
     overflow: hidden;
-
 }
 
 .testimonials__items_wrapper {
