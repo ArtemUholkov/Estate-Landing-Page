@@ -93,33 +93,58 @@ const sliderItemm = document.querySelectorAll('.testimonials__item');
 const sliderWrapper = document.querySelector('.testimonials__items_wrapper');
 const nextButton = document.querySelector('.testimonials__button_wrapper_next');
 const prevButton = document.querySelector('.testimonials__button_wrapper_prev');
-let sliderWidth = (sliderItemm.length - 1) * 636;
-let pixelCounter = 0;
+let sliderWidth = (sliderItemm.length - 3) * 646;
+let pixelCounter = -646;
 
 
 nextButton.addEventListener("click", function () {
-    if (pixelCounter < sliderWidth) {
-        pixelCounter += 636;
-        sliderWrapper.style.left = -pixelCounter + 'px';
+    if (Math.abs(pixelCounter) < sliderWidth) {
+        pixelCounter -= 646;
+        sliderWrapper.style.left = pixelCounter + 'px';
+        console.log(pixelCounter);
+
     }
     else {
+        sliderWrapper.style.transition = 'none';
         pixelCounter = 0;
         sliderWrapper.style.left = pixelCounter + 'px';
+        setTimeout(() => {
+            sliderWrapper.style.transition = 'all ease 0.5s';
+        }, 10);
+        setTimeout(() => {
+
+            pixelCounter = -646;
+            sliderWrapper.style.left = pixelCounter + 'px';
+        }, 20);
     }
 
 
 });
 
 prevButton.addEventListener("click", function () {
-    if (pixelCounter > 0) {
-        pixelCounter -= 636;
-        sliderWrapper.style.left = -pixelCounter + 'px';
+    if (pixelCounter < 0) {
+        pixelCounter += 646;
+        sliderWrapper.style.left = pixelCounter + 'px';
+        console.log(pixelCounter);
     }
     else {
-        pixelCounter = sliderWidth;
-        sliderWrapper.style.left = -pixelCounter + 'px';
+        sliderWrapper.style.transition = 'none';
+        setTimeout(() => {
+            pixelCounter = -sliderWidth;
+            sliderWrapper.style.left = pixelCounter + 'px';
 
+        }, 10);
+
+        setTimeout(() => {
+            pixelCounter = -sliderWidth + 646;
+            sliderWrapper.style.left = pixelCounter + 'px';
+            sliderWrapper.style.transition = 'all ease 0.5s';
+        }, 20);
+        console.log(pixelCounter);
     }
 
 
 });
+
+// pixelCounter = sliderWidth;
+// sliderWrapper.style.left = -pixelCounter + 'px';

@@ -8,11 +8,11 @@
 
 .testimonials__items_wrapper {
     position: relative;
-    left: 0;
+    left: -646px;
     width: fit-content;
     padding-top: 57px;
     display: flex;
-    transition: all ease 1s;
+    transition: all ease 0.5s;
 }
 
 .testimonials__item {
@@ -20,6 +20,7 @@
     width: 584px;
     display: flex;
     flex-direction: column;
+
 }
 
 .testimonials__rating_img {
