@@ -101,7 +101,7 @@ nextButton.addEventListener("click", function () {
     if (Math.abs(pixelCounter) < sliderWidth) {
         pixelCounter -= 646;
         sliderWrapper.style.left = pixelCounter + 'px';
-        console.log(pixelCounter);
+
 
     }
     else {
@@ -117,7 +117,7 @@ nextButton.addEventListener("click", function () {
             sliderWrapper.style.left = pixelCounter + 'px';
         }, 20);
     }
-
+    console.log(pixelCounter);
 
 });
 
@@ -125,24 +125,23 @@ prevButton.addEventListener("click", function () {
     if (pixelCounter < 0) {
         pixelCounter += 646;
         sliderWrapper.style.left = pixelCounter + 'px';
-        console.log(pixelCounter);
+
     }
     else {
         sliderWrapper.style.transition = 'none';
-        setTimeout(() => {
-            pixelCounter = -sliderWidth;
-            sliderWrapper.style.left = pixelCounter + 'px';
 
-        }, 10);
+        pixelCounter = -sliderWidth;
+        sliderWrapper.style.left = pixelCounter + 'px';
+
 
         setTimeout(() => {
             pixelCounter = -sliderWidth + 646;
             sliderWrapper.style.left = pixelCounter + 'px';
             sliderWrapper.style.transition = 'all ease 0.5s';
         }, 20);
-        console.log(pixelCounter);
-    }
 
+    }
+    console.log(pixelCounter);
 
 });
 
