@@ -11,8 +11,7 @@
 }
 
 .current_listings_item_description {
-    width: calc(33.33% - 21px);
-    margin: 0 auto;
+    width: calc(33.33% - 11px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +21,7 @@
 
 .current_listings_text_wrapper {
     margin: 0 auto;
-    padding: 0 0 30px 36px;
+    padding: 16px;
 }
 
 .left_text {
@@ -47,8 +46,8 @@
 }
 
 .current_listings_item_description_more {
-    width: calc(33.33% - 21px);
-    margin: 0 auto;
+    width: calc(33.33% - 11px);
+
     display: flex;
     flex-direction: column;
     align-items: center;

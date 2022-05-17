@@ -3,6 +3,7 @@ const popup = document.querySelector("#popup");
 const popupSlide = document.querySelector("#popupSlide")
 const sliderItem = document.querySelectorAll(".our_requirements_content_item");
 const sliderPhoto = document.querySelector(".our_requirements_img");
+const body = document.body;
 
 burger.addEventListener("click", burgerHandler);
 popup.addEventListener("click", (e) => {
@@ -19,7 +20,9 @@ function burgerHandler(e) {
 
     if (popup.classList.contains('open')) {
         popup.classList.add('close')
+        body.classList.remove('noscroll');
         popupSlide.classList.add('slideout');
+
         setTimeout(() => {
             popup.classList.remove('close');
             popup.classList.remove('open');
@@ -28,7 +31,7 @@ function burgerHandler(e) {
         }, 300);
 
     } else {
-
+        body.classList.add('noscroll');
         popup.classList.add("open");
         popupSlide.classList.add("slidein")
 

@@ -40,6 +40,10 @@ header {
     display: none;
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
 .navbar_menu {
     display: flex;
     height: 100%;
@@ -64,10 +68,6 @@ header {
 @media (max-width: 960px) {
     .navbar_menu {
         display: none;
-    }
-
-    .navbar {
-        width: 90%;
     }
 
     .burger {
@@ -210,7 +210,7 @@ header {
 
 @media (max-width: 600px) {
     .navbar {
-        width: 95%;
+        width: 100%;
     }
 }
 
