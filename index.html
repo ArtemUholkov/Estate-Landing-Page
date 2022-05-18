@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -646,35 +647,81 @@
             <span class="main_text">NEWSROOM</span>
             <span class="sub_text center_text">Writing from Estate.</span>
             <div class="newsroom__content">
-                <div class="newsroom__content_item">
-                    <div class="newsroom__content_img_wrapper">
-                        <img src="img/newsroom/building1.svg" alt="Press release photo" class="newsroom__content_img">
-                    </div>
-                    <span class="newsroom__content_type">PRESS RELEASE</span>
-                    <span class="newsroom__content_name">Market watch: are condos still a good investment?</span>
-                    <span class="newsroom__content_date">August 12, 2021</span>
-                </div>
-                <div class="newsroom__content_item">
-                    <div class="newsroom__content_img_wrapper">
-                        <img src="img/newsroom/building2.svg" alt="Announcement photo" class="newsroom__content_img">
-                    </div>
-                    <span class="newsroom__content_type">Announcement</span>
-                    <span class="newsroom__content_name">The history of great design</span>
-                    <span class="newsroom__content_date">August 12, 2021</span>
-                </div>
-                <div class="newsroom__content_item">
-                    <div class="newsroom__content_img_wrapper">
-                        <img src="img/newsroom/building3.svg" alt="Company news photo" class="newsroom__content_img">
-                    </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="newsroom__content_item">
+                                <div class="newsroom__content_img_wrapper">
+                                    <img src="img/newsroom/building1.svg" alt="Press release photo"
+                                        class="newsroom__content_img">
+                                </div>
+                                <span class="newsroom__content_type">PRESS RELEASE</span>
+                                <span class="newsroom__content_name">Market watch: are condos still a good
+                                    investment?</span>
+                                <span class="newsroom__content_date">August 12, 2021</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsroom__content_item">
+                                <div class="newsroom__content_img_wrapper">
+                                    <img src="img/newsroom/building2.svg" alt="Announcement photo"
+                                        class="newsroom__content_img">
+                                </div>
+                                <span class="newsroom__content_type">Announcement</span>
+                                <span class="newsroom__content_name">The history of great design</span>
+                                <span class="newsroom__content_date">August 12, 2021</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsroom__content_item">
+                                <div class="newsroom__content_img_wrapper">
+                                    <img src="img/newsroom/building3.svg" alt="Company news photo"
+                                        class="newsroom__content_img">
+                                </div>
+                                <span class="newsroom__content_type">Company news</span>
+                                <span class="newsroom__content_name">Designers who changed everything</span>
+                                <span class="newsroom__content_date">August 12, 2021</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsroom__content_item">
+                                <div class="newsroom__content_img_wrapper">
+                                    <img src="img/newsroom/building1.svg" alt="Press release photo"
+                                        class="newsroom__content_img">
+                                </div>
+                                <span class="newsroom__content_type">PRESS RELEASE</span>
+                                <span class="newsroom__content_name">Market watch: are condos still a good
+                                    investment?</span>
+                                <span class="newsroom__content_date">August 12, 2021</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsroom__content_item">
+                                <div class="newsroom__content_img_wrapper">
+                                    <img src="img/newsroom/building2.svg" alt="Announcement photo"
+                                        class="newsroom__content_img">
+                                </div>
+                                <span class="newsroom__content_type">Announcement</span>
+                                <span class="newsroom__content_name">The history of great design</span>
+                                <span class="newsroom__content_date">August 12, 2021</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsroom__content_item">
+                                <div class="newsroom__content_img_wrapper">
+                                    <img src="img/newsroom/building3.svg" alt="Company news photo"
+                                        class="newsroom__content_img">
+                                </div>
+                                <span class="newsroom__content_type">Company news</span>
+                                <span class="newsroom__content_name">Designers who changed everything</span>
+                                <span class="newsroom__content_date">August 12, 2021</span>
+                            </div>
+                        </div>
 
-                    <span class="newsroom__content_type">Company news</span>
-                    <span class="newsroom__content_name">Designers who changed everything</span>
-                    <span class="newsroom__content_date">August 12, 2021</span>
-
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-            </div>
-            <div class="newsroom__link_wrapper">
-                <a class="newsroom__link">Show more news<span class="arrow-span">&#8594;</span> </a>
+
             </div>
         </div>
     </section>
@@ -987,6 +1034,19 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper2 = new Swiper(".mySwiper", {
+            slidesPerView: 3.5,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 
 </html>

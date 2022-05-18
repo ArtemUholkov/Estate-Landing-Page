@@ -66,28 +66,7 @@
     padding: 0 30px 30px;
 }
 
-.newsroom__link_wrapper {
-    display: block;
-    text-align: center;
-    padding: 26px 26px;
-}
 
-.newsroom__link {
-    text-align: center;
-    cursor: pointer;
-    font-family: 'Montserrat';
-    font-size: 15px;
-    line-height: 21px;
-    text-decoration: none;
-}
-
-.newsroom__link:hover {
-    padding: 10px 10px;
-    background-color: gray;
-    color: white;
-    transition: 0.5s;
-    border-radius: 15px;
-}
 
 @media (max-width: 860px) {
 
