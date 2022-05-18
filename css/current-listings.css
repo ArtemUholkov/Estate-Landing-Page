@@ -3,6 +3,8 @@
     background-color: #FAFAFC;
 }
 
+.current_listings_container {}
+
 .current_listings_gallary {
     margin: 0 auto;
     display: flex;
@@ -59,11 +61,11 @@
 @media (max-width: 1200px) {
 
     .current_listings_item_description {
-        width: calc(50% - 21px);
+        width: calc(50% - 8px);
     }
 
     .current_listings_item_description_more {
-        width: calc(50% - 21px);
+        width: calc(50% - 8px);
     }
 
     .sub_text {
@@ -76,11 +78,13 @@
 @media (max-width: 1000px) {
 
     .current_listings_item_description {
-        width: calc(100% - 21px);
+        width: calc(100% - 11px);
+        margin: 0 auto;
     }
 
     .current_listings_item_description_more {
         width: calc(100% - 21px);
+        margin: 0 auto;
     }
 
     .current_listings_wrapper {
