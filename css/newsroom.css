@@ -15,11 +15,12 @@
 }
 
 .newsroom__content_item {
-    width: calc(33.33% - 20px);
+
     display: flex;
     flex-direction: column;
     background-color: white;
     border-radius: 15px;
+    height: 90%;
 }
 
 .newsroom__content_img_wrapper {
@@ -79,4 +80,13 @@
     .newsroom__content_item {
         width: calc(100% - 20px);
     }
+}
+
+.swiper-pagination-bullet {
+
+    background-color: #FF8A63;
+}
+
+.swiper-wrapper {
+    padding-bottom: 60px;
 }
