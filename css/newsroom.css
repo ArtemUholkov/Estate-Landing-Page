@@ -68,22 +68,7 @@
 }
 
 
-
-@media (max-width: 860px) {
-
-    .newsroom__content {
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-    .newsroom__content_item {
-        width: calc(100% - 20px);
-    }
-}
-
 .swiper-pagination-bullet {
-
     background-color: #FF8A63;
 }
 
