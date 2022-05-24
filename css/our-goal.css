@@ -1,5 +1,5 @@
 .our_goal {
-    background-color: #FAFAFC;
+    background-color: var(--background-color-light-gray);
 }
 
 .our_goal_wrapper {
@@ -20,17 +20,15 @@
 }
 
 .our_goal_text1 {
-    font-family: 'Montserrat';
     font-size: 14px;
     text-transform: uppercase;
-    color: #FF8A63;
+    color: var(--main-style-color);
 }
 
 .our_goal_text2 {
-    font-family: 'Montserrat';
     font-size: 48px;
     line-height: 53px;
-    color: #45525B;
+    color: var(--dark-gray-text-color);
 }
 
 .our_goal_right_side_wrapper {
@@ -40,7 +38,6 @@
 }
 
 .our_goa_right_text1 {
-    font-family: 'Montserrat';
     line-height: 22px;
     color: #333333;
 }
@@ -58,18 +55,16 @@
 }
 
 .person_name {
-    font-family: 'Montserrat';
     font-size: 16px;
     line-height: 22px;
-    color: #45525B;
+    color: var(--dark-gray-text-color);
 }
 
 .person_position {
-    font-family: 'Montserrat';
     font-size: 12px;
     line-height: 17px;
     text-transform: uppercase;
-    color: #6F7278;
+    color: var(--light-gray-text-color);
 }
 
 .person_photo_wrapper {

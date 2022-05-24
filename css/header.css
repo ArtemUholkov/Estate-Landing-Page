@@ -18,7 +18,7 @@ header {
     width: 30px;
     height: 3px;
     margin: 6px auto;
-    background-color: #fff;
+    background-color: var(--background-color-white);
     transition: 0.2s;
 }
 
@@ -53,15 +53,14 @@ header {
 
 .nav_elem {
     text-decoration: none;
-    font-family: 'Montserrat';
     font-size: 15px;
     color: #444444;
     padding: 21px 15px 24px;
 }
 
 .nav_elem:hover {
-    background-color: gray;
-    color: white;
+    background-color: var(--button-background-color);
+    color: var(--background-color-white);
     transition: 0.5s;
 }
 
@@ -132,7 +131,7 @@ header {
         position: absolute;
         left: 100%;
         width: 80%;
-        background-color: white;
+        background-color: var(--background-color-white);
         align-items: center;
         overflow: auto;
     }
@@ -151,14 +150,13 @@ header {
         display: block;
         padding: 40px;
         text-decoration: none;
-        font-family: 'Montserrat';
         font-size: 15px;
         color: #444444;
     }
 
     .nav_elem_mobile:hover {
         background-color: gray;
-        color: white;
+        color: var(--background-color-white);
 
     }
 
@@ -282,11 +280,10 @@ header {
 }
 
 h1 {
-    font-family: 'Montserrat';
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    color: #45525B;
+    color: var(--dark-gray-text-color);
 }
 
 .title_circle {

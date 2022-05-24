@@ -2,31 +2,21 @@
     padding: 100px 0;
 }
 
-.main_text {
-    display: block;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #FF8A63;
-}
 
 h3 {
-    font-family: 'Montserrat';
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    color: #45525B;
+    color: var(--dark-gray-text-color);
 }
 
 .our_requirements_description {
     display: block;
     text-align: center;
-    font-family: 'Montserrat';
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color: #6F7278;
+    color: var(--light-gray-text-color);
 }
 
 .our_requirements_content {
@@ -69,12 +59,11 @@ h3 {
 }
 
 .main_item {
-    background-color: #FAFAFC;
+    background-color: var(--background-color-light-gray);
     border-radius: 15px;
 }
 
 .our_requirements_text_title {
-    font-family: 'Montserrat';
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -82,10 +71,9 @@ h3 {
 }
 
 .our_requirements_text_info {
-    font-family: 'Montserrat';
     font-size: 14px;
     line-height: 20px;
-    color: #6F7278;
+    color: var(--light-gray-text-color);
 }
 
 .our_requirements_img {

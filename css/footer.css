@@ -1,6 +1,6 @@
 .contact {
     width: 100%;
-    background-color: #45525B;
+    background-color: var(--dark-gray-text-color);
 }
 
 .footer_container {
@@ -17,17 +17,16 @@
 }
 
 .white_text {
-    color: white;
+    color: var(--background-color-white);
     text-align: center;
 }
 
 .contact__contact_button_text {
-    font-family: 'Montserrat';
     font-size: 15px;
     line-height: 22px;
     text-align: center;
-    color: #45525B;
-    background-color: white;
+    color: var(--dark-gray-text-color);
+    background-color: var(--background-color-white);
     padding: 10px 18px 11px;
     border-radius: 5px;
     margin: 0 auto;
@@ -47,14 +46,14 @@
 }
 
 .contact__contact_button_text:hover {
-    background-color: gray;
-    color: white;
+    background-color: var(--button-background-color);
+    color: var(--background-color-white);
     transition: 0.5s;
 }
 
 footer {
     width: 100%;
-    background-color: #292C32;
+    background-color: var(--navigation-background);
 }
 
 .footer__logo_wrapper {
@@ -69,7 +68,7 @@ footer {
 }
 
 .footer_nav_text {
-    color: white;
+    color: var(--background-color-white);
     padding: 5px;
     transition: all 0.5s;
 }
@@ -137,14 +136,14 @@ footer {
 }
 
 .footer_nav__sub_text {
-    color: white;
+    color: var(--background-color-white);
     padding: 5px;
 }
 
 .footer__form {
     width: 80%;
     max-width: 460px;
-    background-color: white;
+    background-color: var(--background-color-white);
     display: flex;
     padding: 7px;
     border-radius: 5px;
@@ -160,8 +159,8 @@ footer {
 .footer__mail_button {
     width: 20%;
     border: 0;
-    background: #3A4443;
-    color: white;
+    background: var(--dark-button);
+    color: var(--background-color-white);
     padding: 10px;
     border-radius: 10px;
     transition: all 0.5s;
@@ -169,12 +168,12 @@ footer {
 }
 
 .footer__mail_button:hover {
-    background-color: gray;
+    background-color: var(--button-background-color);
 
 }
 
 .footer_nav_text:hover {
-    color: gray;
+    color: var(--button-background-color);
 }
 
 @media (max-width: 900px) {

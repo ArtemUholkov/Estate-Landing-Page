@@ -1,6 +1,6 @@
 .newsroom {
     width: 100%;
-    background-color: #FAFAFC;
+    background-color: var(--background-color-light-gray);
 }
 
 .center_text {
@@ -18,7 +18,7 @@
 
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--background-color-white);
     border-radius: 15px;
     height: 90%;
 }
@@ -40,36 +40,33 @@
 
 .newsroom__content_type {
     display: block;
-    font-family: 'Montserrat';
     font-size: 12px;
     line-height: 17px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FF8A63;
+    color: var(--main-style-color);
     padding: 30px 30px 8px;
 }
 
 .newsroom__content_name {
     display: block;
-    font-family: 'Montserrat';
     font-size: 16px;
     line-height: 19px;
-    color: #45525B;
+    color: var(--dark-gray-text-color);
     padding: 0 30px 10px;
 }
 
 .newsroom__content_date {
     display: block;
-    font-family: 'Montserrat';
     font-size: 13px;
     line-height: 20px;
-    color: #6F7278;
+    color: var(--light-gray-text-color);
     padding: 0 30px 30px;
 }
 
 
 .swiper-pagination-bullet {
-    background-color: #FF8A63;
+    background-color: var(--main-style-color);
 }
 
 .swiper-wrapper {

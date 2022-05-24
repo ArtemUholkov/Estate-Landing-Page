@@ -115,7 +115,14 @@ table {
 
 /*COLOR VARIABLES START*/
 :root {
-    --title-button-text-color: #553c29;
+    --background-color-light-gray: #FAFAFC;
+    --background-color-white: white;
+    --button-background-color: gray;
+    --dark-gray-text-color: #45525B;
+    --light-gray-text-color: #6F7278;
+    --navigation-background: #292C32;
+    --dark-button: #3A4443;
+    --main-style-color: #FF8A63;
 }
 
 /*COLOR VARIABLES END*/
@@ -128,12 +135,27 @@ img {
 }
 
 body {
-
+    font-family: 'Montserrat';
     margin: 0 auto;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.main_text {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--main-style-color);
+}
+
+.sub_text {
+    display: block;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--dark-gray-text-color);
 }
 
 .container {
@@ -156,5 +178,6 @@ html {
         padding: 25px 0;
     }
 }
+
 
 /*COMMONT STYLES END*/

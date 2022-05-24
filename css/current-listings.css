@@ -1,9 +1,7 @@
 .current_listings {
     width: 100%;
-    background-color: #FAFAFC;
+    background-color: var(--background-color-light-gray);
 }
-
-.current_listings_container {}
 
 .current_listings_gallary {
     margin: 0 auto;
@@ -18,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 10px 10px;
-    background-color: white;
+    background-color: var(--background-color-white);
 }
 
 .current_listings_text_wrapper {
@@ -30,20 +28,12 @@
     text-align: left;
 }
 
-.sub_text {
-    display: block;
-    font-family: 'Montserrat';
-    font-size: 36px;
-    line-height: 43px;
-    color: #45525B;
-}
 
 .current_listings_description {
     display: block;
-    font-family: 'Montserrat';
     font-size: 18px;
     line-height: 22px;
-    color: #6F7278;
+    color: var(--light-gray-text-color);
 
 }
 
@@ -54,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 10px 10px;
-    background-color: white;
+    background-color: var(--background-color-white);
 
 }
 
@@ -127,19 +117,16 @@
 
 .gallary_text_place {
     padding-bottom: 10px;
-    font-family: 'Montserrat';
     font-size: 20px;
     line-height: 28px;
 }
 
 .gallary_text_type {
-    font-family: 'Montserrat';
     font-size: 12px;
     line-height: 17px;
 }
 
 .gallery_info {
-    font-family: 'Montserrat';
     font-size: 12px;
     line-height: 17px;
 }
@@ -153,7 +140,6 @@
 .show_more {
     text-align: center;
     cursor: pointer;
-    font-family: 'Montserrat';
     font-size: 15px;
     line-height: 21px;
     text-decoration: none;
@@ -161,8 +147,8 @@
 
 .show_more:hover {
     padding: 10px 10px;
-    background-color: gray;
-    color: white;
+    background-color: var(--button-background-color);
+    color: var(--background-color-white);
     transition: 0.5s;
     border-radius: 15px;
 }
@@ -170,7 +156,6 @@
 .hiden_button {
     text-align: center;
     cursor: pointer;
-    font-family: 'Montserrat';
     font-size: 15px;
     line-height: 21px;
     text-decoration: none;
@@ -178,8 +163,8 @@
 
 .hiden_button:hover {
     padding: 10px 10px;
-    background-color: gray;
-    color: white;
+    background-color: var(--button-background-color);
+    color: var(--background-color-white);
     transition: 0.5s;
     border-radius: 15px;
 }
